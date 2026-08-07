@@ -95,21 +95,24 @@ This project analyzes customer shopping behavior using transactional data from 3
 
 ## 📁 Project Structure
 
-Customer-Behavior-Analysis/
-
-│── data/
-
-│── sql/
-
-│── notebooks/
-
-│── powerbi/
-
-│── images/
-
-│── README.md
-
-│── requirements.txt
+customer-behavior-analysis/
+│
+├── dataset/
+│   └── customer_shopping_behavior.csv
+│
+├── notebooks/
+│   └── customer_cleaned.ipynb
+│
+├── sql/
+│   └── customer_analysis.sql
+│
+├── powerBi/
+│   └── customer_behavior_dashboard.pbix
+│
+├── images/
+│   └── dashboard.png
+│
+└── README.md
 
 ---
 
