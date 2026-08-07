@@ -17,12 +17,38 @@ This project analyzes customer shopping behavior using transactional data from 3
 
 ---
 
+## 🧠 Skills Demonstrated
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis
+- SQL Data Analysis
+- CTEs & Window Functions
+- Aggregation & Subqueries
+- Customer Segmentation
+- KPI Development
+- Data Visualization
+- Power BI Dashboard Development
+- Business Insights & Recommendations
+
+---
+
 ## 🛠️ Tools & Technologies
 
 - SQL (MySQL)
 - Pandas
 - NumPy
 - Power BI
+
+---
+
+## 💼 Business Problem
+
+The business wants to understand customer purchasing behavior,
+identify high-value customer segments, evaluate subscription
+performance, and determine factors associated with higher spending.
+
+This analysis uses customer transaction data to identify patterns
+that can support marketing, retention, and revenue-growth decisions.
 
 ---
 
@@ -37,6 +63,19 @@ This project analyzes customer shopping behavior using transactional data from 3
 - Purchase details (Item Purchased, Category, Purchase Amount, Season, Size, Color)
 - Shopping behavior (Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating, Shipping Type)
 - Missing Data: 37 values in Review Rating column
+
+---
+
+## 📌 Key KPIs
+
+- Total Revenue
+- Average Purchase Amount
+- Total Customers
+- Average Review Rating
+- Subscriber vs Non-Subscriber Revenue
+- Discount Usage Rate
+- Revenue by Age Group
+- Revenue by Gender
 
 ---
 
@@ -116,21 +155,29 @@ customer-behavior-analysis/
 
 ---
 
-## 🚀 How to Run
 
-1. Clone the repository
+## ▶️ How to Run
 
-```
-git clone https://github.com/yourusername/customer-behavior-analysis.git
-```
+### 1. Python Analysis
+Open the notebook:
 
-2. Install dependencies
+`notebooks/customer_cleaned.ipynb`
 
-```
-pip install -r requirements.txt
-```
+Run the cells to reproduce the data cleaning and analysis.
 
-3. Open the notebook or Power BI dashboard.
+### 2. SQL Analysis
+Open:
+
+`sql/customer_analysis.sql`
+
+Run the queries in MySQL to reproduce the business analysis.
+
+### 3. Power BI Dashboard
+Open:
+
+`powerBi/customer_behavior_dashboard.pbix`
+
+Open the file in Power BI Desktop to explore the interactive dashboard.
 
 ---
 
