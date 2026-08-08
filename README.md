@@ -133,7 +133,7 @@ that can support marketing, retention, and revenue-growth decisions.
 ---
 
 ## 📁 Project Structure
-
+```text
 customer-behavior-analysis/
 │
 ├── dataset/
@@ -145,14 +145,14 @@ customer-behavior-analysis/
 ├── sql/
 │   └── customer_analysis.sql
 │
-├── powerBi/
+├── powerbi/
 │   └── customer_behavior_dashboard.pbix
 │
 ├── images/
 │   └── dashboard.png
 │
 └── README.md
-
+```
 ---
 
 
